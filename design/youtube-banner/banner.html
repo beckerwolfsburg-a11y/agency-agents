@@ -1,0 +1,105 @@
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: 'Oswald';
+    font-weight: 700;
+    src: url('oswald.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    src: url('inter.woff2') format('woff2');
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 2560px; height: 1440px; }
+  body {
+    position: relative;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse 900px 700px at 82% 30%, rgba(120,130,150,0.16), transparent 70%),
+      linear-gradient(135deg, #0b101f 0%, #0a0e1b 45%, #0d1322 100%);
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  }
+  .stars { position: absolute; inset: 0; }
+  .star {
+    position: absolute;
+    background: #cfd6e4;
+    border-radius: 50%;
+  }
+  .content {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+  }
+  .h-white {
+    font-weight: 700;
+    font-size: 118px;
+    letter-spacing: 2px;
+    color: #f4f6f9;
+    text-transform: uppercase;
+  }
+  .divider {
+    width: 5px;
+    height: 96px;
+    background: #6b7486;
+    border-radius: 2px;
+  }
+  .h-gold {
+    font-weight: 700;
+    font-size: 118px;
+    letter-spacing: 2px;
+    color: #c9a24b;
+    text-transform: uppercase;
+    border-bottom: 7px solid #c9a24b;
+    padding-bottom: 10px;
+  }
+  .subline {
+    margin-top: 46px;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 11px;
+    color: #aeb6c4;
+    text-transform: uppercase;
+  }
+  .subline .dot { color: #8a93a4; margin: 0 18px; }
+</style>
+<div class="stars" id="stars"></div>
+<div class="content">
+  <div class="headline">
+    <span class="h-white">24 Jahre System.</span>
+    <span class="divider"></span>
+    <span class="h-gold">Dann ich.</span>
+  </div>
+  <div class="subline">Persönlichkeitsentwicklung <span class="dot">·</span> Disziplin <span class="dot">·</span> Freiheit</div>
+</div>
+<script>
+  const seedPositions = [
+    [120, 210], [340, 90], [520, 380], [760, 160], [980, 60], [1180, 300],
+    [1420, 120], [1660, 240], [1890, 80], [2120, 340], [2350, 150], [2480, 420],
+    [90, 620], [280, 900], [460, 1150], [700, 1320], [950, 1220], [1240, 1360],
+    [1500, 1180], [1780, 1290], [2040, 1120], [2260, 1330], [2440, 980],
+    [1560, 460], [1720, 700], [1950, 560], [2180, 760], [2380, 640],
+    [180, 1050], [400, 760], [620, 560], [2500, 250], [1350, 950], [1100, 1080]
+  ];
+  const c = document.getElementById('stars');
+  seedPositions.forEach(([x, y], i) => {
+    const s = document.createElement('div');
+    s.className = 'star';
+    const size = (i % 3 === 0) ? 4 : (i % 2 === 0 ? 3 : 2);
+    s.style.left = x + 'px';
+    s.style.top = y + 'px';
+    s.style.width = size + 'px';
+    s.style.height = size + 'px';
+    s.style.opacity = 0.25 + ((i * 7) % 10) / 18;
+    c.appendChild(s);
+  });
+</script>
