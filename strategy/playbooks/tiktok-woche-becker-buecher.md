@@ -25,10 +25,18 @@
 Jeder Post folgt derselben Dramaturgie. Sie ist die auf drei Frames gekürzte Fassung des 5-Frame-Bogens:
 
 1. **Erkennen** — Druck-Archetyp. Der Leser sieht sich selbst. Keine Lösung, keine Andeutung.
-2. **Der Preis** — dunkler als Bild 1. Was es kostet, benennen. Hier darf es wehtun.
-3. **Die Wende** — Funke oder Feuerkreis. Erstes warmes Licht der Sequenz. Buchzeile.
+2. **Die Wende** — der Preis wird benannt und gedreht. Funke oder Feuerkreis, erstes warmes Licht.
+3. **Der Sockel** — das echte Cover auf beleuchtetem Sockel, Titel, eine Kaufzeile.
 
-Die Aufhellung passiert erst in Bild 3. Diese Tonkurve ist der Grund, warum weitergewischt wird.
+Bild 3 ist ab sofort immer der Sockel, nie mehr eine Metapher. Ein Post, der den Leser nur
+gesehen fühlen lässt, verkauft nichts. Die Wende wandert dafür in Bild 2.
+
+**Die Kaufzeile** — genau eine, klein, unter dem Cover:
+`Erhältlich bei Amazon` oder `Link in der Bio`. Nicht beides, nie ein Preis, nie ein Rabatt.
+
+**Das Cover muss die echte Datei sein.** Als Referenzbild ins Modell geben, niemals
+beschreiben und nachzeichnen lassen — sonst steht ein falscher Untertitel auf der Werbung
+für das echte Buch.
 
 ### Overlay-Spezifikation (für alle 24 Bilder identisch)
 

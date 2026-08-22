@@ -16,9 +16,23 @@ Buch im Feed sofort unterscheidbar ist.
 | **Steinzeit im Kopf** | Blood Amber `#B83A12` / Ochre `#D98A3D` | Flat graphic silhouette | Feuerkreis, Herde, Koloss | Titel bestätigt, Inhalt offen |
 | **Zerdacht** | Poster Amber `#F0A24A` auf Teal `#0F7A80` | Limited-palette poster | Last, Marionette, Funke | Titel bestätigt, Inhalt offen |
 | **Weggewischt** | Neon Blood `#FF2E4D` | Photoreal cinematic | Leine, Glas, Wurzel | aus Drive erschlossen |
+| **Du bist nicht faul** | Dopamin-Magenta `#FF2E88` | Photoreal cinematic | Marionette, Leine, Herde | Cover gesehen, läuft schon |
 
-Fünf Bücher, fünf Farben, drei Modi — keine zwei Bücher sehen gleich aus, und trotzdem
+Sechs Bücher, sechs Farben, drei Modi — keine zwei Bücher sehen gleich aus, und trotzdem
 erkennt man die Handschrift.
+
+*Du bist nicht faul* bekommt das Magenta direkt vom eigenen Cover (Dopamin-Molekül auf
+Schwarz). Das Cover gibt die Farbe vor, nicht umgekehrt — bei jedem weiteren Buch genauso.
+
+## Das Cover-Asset
+
+Jedes Buch braucht **eine** Coverdatei, die als Referenzbild in den Sockel-Frame geht:
+- Cover-Vorderseite, gerade, ohne Schatten oder Mockup-Rahmen
+- mindestens 1200 px hoch, JPG oder PNG
+- einmal in die Higgsfield-Bibliothek hochgeladen, dann als Element wiederverwendbar
+
+Ohne diese Datei kann der Sockel-Frame nicht gebaut werden. Ein vom Modell erfundenes
+Cover trägt einen falschen Untertitel — auf der Werbung für das echte Buch.
 
 ## Warum diese Zuordnung
 
