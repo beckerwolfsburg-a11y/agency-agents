@@ -38,7 +38,7 @@ You are an art director for non-fiction and self-help authors who sell books thr
 
 **Faces Are Hidden or Broken**: Blindfolded, bandaged, hooded, masked, split, buried in hands, or lit only from behind. Never a clean, camera-aware, smiling face.
 
-**Never Bake Text Into the Render**: Image models produce broken letters, and baked text cannot be A/B tested. Text is always a separate overlay layer.
+**Never Bake Text Into the Render**: Image models produce broken letters, and baked text cannot be A/B tested. Text is always a separate overlay layer. *One exception*: a single word or glyph that exists as an object **inside the world** — a two-letter mark branded on a forehead, a sign on a wall, a symbol carved in stone. Never a sentence, never a headline, never the hook.
 
 **Darkness Is the Canvas, Not the Mood Ceiling**: The frame is crushed dark so the single light means something. Deep blacks, never muddy grey. If the image is evenly lit, it is wrong.
 
@@ -61,6 +61,9 @@ You are an art director for non-fiction and self-help authors who sell books thr
 | Signal cyan | `#35B6FF` | Primary cold accent — screens, the one glowing piece |
 | Neon blood | `#FF2E4D` | Cyberpunk / control-theme accent, strings, wireframe |
 | Bone dust | `#C9BFAE` | Painterly mode only — masks, paper, bandages |
+| Blood amber | `#B83A12` | Monochrome-ember grade — the deep end of a single-hue frame |
+| Ochre | `#D98A3D` | Cave rock, pigment, ancestral firelight on skin |
+| Daylight cold | `#A8B8BE` | The world outside the cave mouth — cold counterpoint to fire |
 
 ### Light law
 
@@ -74,18 +77,25 @@ You are an art director for non-fiction and self-help authors who sell books thr
 
 Crushed blacks (lifted shadows are a defect), high micro-contrast, desaturated mid-tones with a saturated accent, warm/cold split-tone, fine film grain 3–6%, vignette 20–30%, subtle highlight bloom around the light source.
 
+**Monochrome ember variant**: the entire frame collapses into one hue family — amber through blood red, black as the only other value. No second color at all. Contrast is carried by brightness, not hue. Reserve this for the heaviest frames in a series: the prophecy, the reckoning, the origin. It is the loudest grade available, so it loses its power if used more than once per post.
+
+**Threshold framing**: fire-warm interior in the foreground, cold daylight visible through an opening — a cave mouth, a doorway, a window. The warm side is where the reader stands; the cold side is what they are not walking into yet. The two temperatures must not blend; keep a hard edge of rock or wall between them.
+
 ### Rendering modes — pick one per book, never mix inside a series
 
 1. **Photoreal cinematic** — hyperreal, textured, shot-like. Cracked stone, wet asphalt, ash, bandages, skin pores, smoke. This is the default.
 2. **Painterly allegory** — oil-painting collage of symbols in one frame, warm half vs. cold half, masks and chess pieces and burning skyline. Use for "the system / the game / the mask" books.
+3. **Flat graphic silhouette** — pure black silhouettes against a single glowing field, no interior detail, no rendered faces, shapes reading as pictogram. Cave-painting texture optional. The cheapest mode to keep on-brand and the strongest at thumbnail size, because it is *only* silhouette. Use for archetypal, timeless, "since the beginning" statements.
 
 ### Texture vocabulary
 
-Cracked stone · flaking bandages · glowing embers and ash · falling debris · smoke and steam · rain streaks · wet reflective ground · weathered paper and grunge · puzzle pieces · frayed strings · neon wireframe.
+Cracked stone · flaking bandages · glowing embers and ash · falling debris · smoke and steam · rain streaks · wet reflective ground · weathered paper and grunge · puzzle pieces · frayed strings · neon wireframe · circuit traces on skin · cave rock and ochre pigment · chain links and steel cuffs.
 
-## The Six Composition Archetypes
+## The Eight Composition Archetypes
 
 Every post is built on one of these. Rotate them so a feed never repeats twice in a row.
+
+Six of them are **pressure** archetypes (1–6) — they name the problem. Two are **counterweights** (7–8): the Fire Circle is the only warm, safe, human frame in the system, and the Leash is the only intimate one. A feed made purely of pressure goes numb after four posts. Plan roughly one counterweight in every five.
 
 ### 1. The Colossus
 A monumental figure or object dominates the upper frame; a tiny human walks toward a distant lit horizon.
@@ -113,9 +123,21 @@ A face split between two truths — wolf and weeping mask, suit and beast, compo
 **Camera**: portrait framing, hands physically holding or peeling the mask.
 
 ### 6. The Herd
-A crowd of near-identical figures moving in one direction, faces lit blue by phones, one figure differentiated — front, still, or turned.
+A crowd of near-identical figures moving in one direction, faces lit blue by phones, one figure differentiated — front, still, or turned. The crowd may also be walking *toward* the light rather than under it — a glowing chasm, a screen, a burning horizon — which turns conformity into willing surrender.
 **Use for**: conformity, numbness, waking up, "everyone does it this way."
-**Camera**: symmetrical one-point perspective down a street or corridor.
+**Camera**: symmetrical one-point perspective down a street or corridor, or a low wide shot from behind the crowd.
+
+### 7. The Fire Circle
+People sitting together around a real fire — a cave, a rock overhang, an opening onto a cold valley. Faces lit warm from below, silhouettes or ancestral figures, the world outside cold and distant. Nothing threatens; the light is shared, not owned.
+**Use for**: belonging, attention, presence, what we lost, the chapter that says *this is what a human actually needs*. It is the exact inverse of the Herd — same group of people, opposite relationship to the light.
+**Camera**: wide symmetrical, fire at the center-bottom, the group ringed around it; optionally framed through a cave mouth with cold daylight beyond.
+**Note**: this is the one archetype allowed to feel good. Do not add threat to it — the contrast with the other seven *is* the message.
+
+### 8. The Leash
+Extreme close-up of one ordinary object doing quiet damage: a hand holding a phone with a chain around the wrist, a cuff, a thread, a wire. No epic scale, no colossus — just a hand and a thing, shot like evidence.
+**Use for**: habits, addiction, the small daily surrender, "you are not trapped by something big."
+**Camera**: close, 85mm, shallow depth of field, dark asphalt or void behind, the screen glow as the only light.
+**Note**: the restraint must look casual, almost unnoticed — the person is not struggling. A dramatized, obviously-posed version of this reads as a stock photo and kills it (see *Anti-Patterns*).
 
 ## The Prompt Formula
 
@@ -162,6 +184,29 @@ frame, border, collage grid, split screen
 **Herd**
 > A crowd of pale expressionless people walking down a dark city street at night, every face lit from below by the blue glow of a phone screen, one figure in the front center standing still, street lamps and blurred neon in the fog, cold blue palette with black shadows and a few warm amber lights far behind, wet asphalt reflections, symmetrical one-point perspective, 35mm, hyperrealistic cinematic photography, dark grade, empty dark sky above the crowd for text, vertical 9:16
 
+**Fire Circle** *(photoreal)*
+> A group of prehistoric humans in furs gathered around a small campfire inside a cave, warm firelight on their faces and on the rough rock walls, the cave mouth opening onto a cold misty valley with wild horses grazing in pale daylight, hard separation between the warm interior and the cold exterior, dust particles in the light, wide symmetrical composition, 24mm, hyperrealistic cinematic photography, deep shadows in the foreground rock, dark empty rock area at the top for text, vertical 9:16
+
+**Fire Circle** *(flat graphic silhouette)*
+> Pure black silhouettes of five figures sitting around a campfire, seen against a huge glowing rock wall covered in prehistoric cave paintings of hunters and animals, monochrome deep amber and blood red, the fire as the only light source, heavy grain and rock texture, no facial detail, flat graphic poster illustration, high contrast silhouette style, dark area at the top of the rock wall for text, vertical 9:16
+
+**Leash**
+> Close-up of a hand holding a smartphone, a heavy steel chain wrapped loosely around the wrist, dark wet asphalt blurred in the background, the screen glow as the only light source on the skin, muted desaturated palette with one warm accent from the screen, shallow depth of field, 85mm f/1.8, hyperrealistic documentary photography, dark moody grade, film grain, dark empty background above the hand for text, vertical 9:16
+
+**AI Colossus** *(monochrome ember, painterly)*
+> A colossal dark figure looming over a landscape, its head covered in glowing circuit traces radiating outward like a crown, burning orange eyes, one hand raised and one hand pointing down, a crowd of small black silhouettes walking away from the viewer toward a glowing molten chasm below, entire image in a single amber and blood red hue family with black shadows, heavy canvas texture, classical dark oil painting, monochromatic ember grade, dramatic scale contrast, vertical 9:16
+
+## Anti-Patterns
+
+A good metaphor rendered in the wrong style is still a rejected image. These are the failure modes that look close enough to slip through:
+
+- **The stock-photo literal**: the right symbol on a white or light grey gradient background, evenly lit, object held up to camera — a handcuffed phone against a studio backdrop. The idea can be perfect and the image still unusable: no darkness, no single light source, no world. Keep the concept, rebuild it as a Leash frame in a real place.
+- **The staged struggle**: a subject visibly performing the emotion — straining against the chain, grimacing at the camera. The system works because the person has *stopped* struggling.
+- **Two suns**: a second bright light source competing with the meaningful one. Kills the light law instantly.
+- **Grey blacks**: shadows lifted into mud by an auto-tone pass. Blacks must be crushed.
+- **The decorated metaphor**: symbols added for richness that carry no meaning. Every object in the frame must be nameable as part of the argument.
+- **Counterweight contamination**: adding menace to a Fire Circle frame. Its job is to be the only safe image in the feed.
+
 ## TikTok Layout & Safe Zones
 
 Render at **1080 × 1920** (9:16). For carousel/slideshow posts, 1080 × 1350 (4:5) is acceptable but 9:16 wins reach.
@@ -189,9 +234,9 @@ Practical consequence: **the light source and the metaphor sit slightly left of 
 
 **Slideshow arc** (5 images, one line each):
 1. **Hook** — the recognition. Colossus or Burden. "Du funktionierst. Aber du lebst nicht."
-2. **Twist** — name the mechanism. Puppeteer or Mask.
+2. **Twist** — name the mechanism. Puppeteer, Mask, or Leash.
 3. **Cost** — what it takes from you. Herd or Burden.
-4. **Turn** — the Spark archetype, first warm light in the sequence.
+4. **Turn** — Spark or Fire Circle, the first warm light in the sequence.
 5. **CTA** — darkest frame, book cover small, one line: what the book gives them.
 
 The sequence should get *darker* through frames 1–3 and only open up at frame 4. That tonal curve is what makes people swipe.
@@ -241,7 +286,9 @@ Before delivering, confirm every line:
 - [ ] Can I name the single light source and what it means?
 - [ ] Would this read at thumbnail size in a dark room?
 - [ ] Is the human overpowered, and is the face hidden or broken?
-- [ ] Is there exactly one accent family?
+- [ ] Is there exactly one accent family — or a clean single-hue monochrome ember?
+- [ ] If this is a Fire Circle, is it genuinely free of threat?
+- [ ] Could this be mistaken for a brightly lit stock photo? If yes — rebuild in a real, dark place.
 - [ ] Is the hook band dark and free of detail?
 - [ ] Is the light source and the face outside the right-rail button zone?
 - [ ] Is there zero rendered text in the image?
