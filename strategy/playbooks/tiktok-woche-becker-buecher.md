@@ -550,3 +550,184 @@ Das ist die einzige Zahl, die hier zählt — Bild 1 entscheidet, ob Bild 2 übe
 wird. Der Gewinner wird der Standard-Opener für die Folgewoche, der Verlierer fliegt raus.
 
 Zweite Zahl: **Saves**, nicht Likes. Saves sagen den Buchverkauf besser voraus.
+
+---
+
+# Teil 2 — Posts für die übrigen Bücher
+
+> ⚠️ Die Kernaussagen unten sind **aus den Titeln abgeleitet**, nicht aus den Manuskripten.
+> Wenn eine Aussage danebenliegt, sag den Titel und den richtigen Kerngedanken — die Hooks
+> sind dann in fünf Minuten korrigiert. Die Bildseite stimmt unabhängig davon.
+
+Alle Posts hier folgen dem neuen Bogen: **Erkennen → Wende → Sockel.**
+
+## Der Sockel-Frame (für alle Bücher identisch)
+
+Erst das Cover einmalig als Referenz-Element anlegen, dann in jedem Sockel-Prompt
+per Platzhalter einsetzen. Modell muss Elemente unterstützen — `nano_banana_pro`
+oder `seedream_v4_5`, **nicht** Recraft.
+
+```
+<<<COVER_ELEMENT_ID>>> standing upright on a rough stone plinth in a completely dark
+empty space, a single shaft of warm light falling from above onto the cover, fine dust
+particles drifting in the beam, deep black surroundings, crushed blacks, subtle haze,
+straight-on centered symmetrical composition, hyperrealistic cinematic photography,
+museum artifact presentation, dark moody grade, empty dark area below the plinth for
+the title and one purchase line, vertical composition
+```
+
+Overlay unten drauf: Buchtitel, darunter klein `Erhältlich bei Amazon` **oder**
+`Link in der Bio`. Nie beides, nie ein Preis.
+
+---
+
+## Steinzeit im Kopf · Akzent Blood Amber `#B83A12` · Flache Silhouette
+
+*Angenommene Kernaussage: Dein Gehirn läuft auf Software von vor 40.000 Jahren.
+Was dich damals am Leben hielt, sabotiert dich heute.*
+
+**Bild 1 — Die Herde** · „Dein Kopf ist **40.000** Jahre alt."
+```
+Flat graphic poster illustration, pure black silhouettes of modern people in coats walking
+through a city street, their shadows on the ground shaped like prehistoric hunters with
+spears, huge glowing deep amber and blood red sky behind them, no facial detail, heavy
+grain and rough texture, high contrast silhouette style, monochrome amber palette, large
+dark area at the top for text, vertical composition
+```
+
+**Bild 2 — Der Feuerkreis** · „Er sucht immer noch das **Feuer**."
+```
+Flat graphic poster illustration, pure black silhouettes of five figures sitting around a
+campfire against a huge glowing rock wall covered in prehistoric cave paintings, monochrome
+deep amber and blood red, the fire as the only light source, heavy grain and rock texture,
+no facial detail, high contrast silhouette style, dark area at the top for text,
+vertical composition
+```
+
+**Bild 3 — Der Sockel** · „Steinzeit im Kopf" + Kaufzeile
+
+**Caption:**
+> Warum du bei einem vollen Posteingang Stress hast wie bei einem Säbelzahntiger.
+>
+> Dein Gehirn unterscheidet das nicht. Es läuft auf Software, die 40.000 Jahre alt ist —
+> und die war dafür gebaut, dich am Leben zu halten, nicht glücklich zu machen.
+>
+> Das ist kein Defekt. Das ist der Grund, warum du so reagierst, wie du reagierst.
+>
+> Was stresst dich mehr, als es objektiv sollte? Schreib es in die Kommentare.
+
+`#steinzeitimkopf #psychologie #gehirn #persönlichkeitsentwicklung #stress #evolution #buchtipp`
+
+---
+
+## Zerdacht · Akzent Amber auf Teal `#F0A24A` / `#0F7A80` · Poster-Modus
+
+*Angenommene Kernaussage: Nachdenken hat dich weit gebracht. Zerdenken hält dich fest.*
+
+**Bild 1 — Die Last** · „Du hast es dir **hundertmal** überlegt."
+```
+Flat vector screen-print illustration, a person in profile sitting with their head lowered,
+an enormous tangled glowing scribble of thread filling the space above and around their
+skull, exactly three colors — black, deep teal background, amber accent — hard edges, no
+gradients except one soft glow, fine halftone grain, high contrast poster art, large empty
+teal area at the top for text, vertical composition
+```
+
+**Bild 2 — Der Funke** · „Und trotzdem nichts **entschieden**."
+```
+Flat vector screen-print illustration, a hand pulling one single clean amber thread out of
+a massive black tangled knot, the freed thread running straight and glowing, exactly three
+colors — black, deep teal background, amber accent — hard edges, fine halftone grain, high
+contrast poster art, large empty teal area at the top for text, vertical composition
+```
+
+**Bild 3 — Der Sockel** · „Zerdacht" + Kaufzeile
+
+**Caption:**
+> Du hast alle Argumente. Beide Seiten. Dreimal durchgespielt.
+> Und stehst genau da, wo du vor drei Monaten standest.
+>
+> Nachdenken hat dich weit gebracht. Zerdenken hält dich fest.
+> Der Unterschied ist nicht die Menge — es ist der Moment, an dem du aufhörst.
+>
+> Worüber denkst du gerade zu lange nach? Schreib es hin, ohne es zu erklären.
+
+`#zerdacht #überdenken #grübeln #persönlichkeitsentwicklung #psychologie #entscheidungen #buchtipp`
+
+---
+
+## Weggewischt · Akzent Neon Blood `#FF2E4D` · Photoreal
+
+*Angenommene Kernaussage: Du hast nichts verloren, was weh tut. Du hast nur alles
+weggewischt, was gezählt hätte.*
+
+**Bild 1 — Das Glas** · „Vier Stunden. **Jeden** Tag."
+```
+A colossal smartphone standing upright on cracked barren ground under a heavy dark sky, the
+black faceless silhouette of a person trapped inside pressing both palms against the inside
+of the glass, the screen filled with abstract glowing shapes, cold red neon screen light as
+the only light source, near-black environment, dramatic clouds, symmetrical straight-on
+composition, hyperrealistic cinematic composite, dark grade, crushed blacks, empty dark sky
+at the top for text, no readable interface text, no brand logos, vertical composition
+```
+
+**Bild 2 — Der Funke** · „Das sind **60 Tage** im Jahr."
+```
+A hand placing a phone face down on a wooden table in a dark room, a warm dawn light coming
+through a window behind, the screen dark, everything else in deep shadow, quiet and
+undramatic, red neon reflection fading on the table surface, shallow depth of field, 85mm,
+hyperrealistic photography, dark cinematic grade, crushed blacks, film grain, large empty
+dark area above for text, vertical composition
+```
+
+**Bild 3 — Der Sockel** · „Weggewischt" + Kaufzeile
+
+**Caption:**
+> Vier Stunden am Tag. Das sind 60 volle Tage im Jahr.
+> Zwei Monate, in denen du gewischt hast.
+>
+> Es tut nicht weh, weil nichts kaputtgeht. Es fehlt nur hinterher.
+> Und du kannst nicht mal sagen, wofür.
+>
+> Schau kurz in deine Bildschirmzeit. Trau dich, die Zahl in die Kommentare zu schreiben.
+
+`#weggewischt #bildschirmzeit #digitaledetox #persönlichkeitsentwicklung #aufmerksamkeit #gewohnheiten #buchtipp`
+
+---
+
+## Du bist nicht faul · Akzent Dopamin-Magenta `#FF2E88` · Photoreal
+
+*Kernaussage vom Cover: Wie die Industrie dein Dopamin gegen dich verwendet.*
+
+**Bild 1 — Die Marionette** · „Du bist nicht **faul**."
+```
+A person sitting slumped on a sofa in a dark room, thin glowing magenta strings running up
+from their head and hands into the darkness above, a phone glowing magenta in their lap as
+the only light source, everything else near black, haze in the air, 35mm, hyperrealistic
+cinematic photography, dark moody grade, crushed blacks, film grain, empty dark area at the
+top for text, vertical composition
+```
+
+**Bild 2 — Die Leine** · „Dein Antrieb wurde **verkauft**."
+```
+Close-up of an open human hand in near total darkness, a small glowing magenta molecule
+structure floating just above the palm, thin magenta threads leading away from it into the
+black, the molecule glow as the only light source, deep black background, dust particles in
+the light, shallow depth of field, 85mm, hyperrealistic photography, dark cinematic grade,
+crushed blacks, film grain, large empty dark area above for text, vertical composition
+```
+
+**Bild 3 — Der Sockel** · „Du bist nicht faul" + Kaufzeile
+
+**Caption:**
+> Du kriegst dich nicht hoch und hältst dich für undiszipliniert.
+>
+> Dein Belohnungssystem ist nicht kaputt. Es ist besetzt.
+> Ganze Abteilungen arbeiten daran, dass dein Dopamin da hingeht, wo es Geld bringt —
+> und nicht dorthin, wo dein Leben stattfindet.
+>
+> Das ist kein Charakterfehler. Das ist ein Geschäftsmodell.
+>
+> Wobei fühlst du dich am ehesten „faul"? Schreib mir das eine Ding.
+
+`#dubistnichtfaul #dopamin #antriebslosigkeit #psychologie #persönlichkeitsentwicklung #aufschieben #buchtipp`
