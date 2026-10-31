@@ -10,13 +10,42 @@ Ohne Vorgaben baut Claude immer ähnliche, austauschbare Grafiken – der Stil i
    rendern und zeigen. Der User sagt, was passt und was nicht. Wiederholen, bis die Testszenen sitzen.
 4. **Eintragen.** Alles Ergebnis unten festhalten. Erst danach Animationen für ein ganzes Video bauen.
 ## Farben
-<!-- z. B. Grund, Schrift, eine Akzentfarbe – mit Hex-Werten -->
+Abgenommen am 31.10.2026. Mix aus Dominik Lebersorger und Robin Fübbeker (aus vidIQ-Analysen, Farbwerte geschätzt).
+- Grund: fast Schwarz #0B0B0C mit weichem Lichtfleck in der Mitte (#1A1B1F). Nie reines #000, nie Weiß als Vollbild.
+- Schrift: Weiß #FFFFFF, zweite Ebene Grau #8E9096, inaktiv #55575C.
+- Linien und Kreise: Weiß mit 22 % Deckkraft (rgba(255,255,255,.22)).
+- Eine Akzentfarbe, nur für aktive Zustände, Zähler und Nummern: warmes Orange #E2723F.
+- Bedeutungsfarben nur bei gut gegen schlecht: Grün #4EBA6F, Rot #E5484D.
+- Fertige Werte als CSS-Variablen: `videos/_stil/animationen/stil.css`. Jede neue Szene bindet diese Datei ein.
 ## Schriften
-<!-- Überschriften, Fließtext, Zahlen/Code – lokal in material/schriften/ ablegen -->
+- Zitate, Regeln, Kapiteltitel: Playfair Display (Serif), Regular, betontes Satzende kursiv.
+- Alles andere: Inter. Überschriften Medium, große Zahlen Light, Labels in Großbuchstaben mit weiter Laufweite (0,28em).
+- Dateien: `videos/_stil/material/schriften/` (Playfair als woff2, Inter als otf). Pfade in CSS relativ zur CSS-Datei.
 ## Bewegung und Übergänge
-<!-- Tempo, Kurven, wie Elemente erscheinen und gehen, Kamerafahrten -->
+- Auftritt: 0,4 s einblenden und 14 px von unten, Kurve expo-out (schnell rein, lange sanft aus). Kein Federn, kein Hüpfen.
+- Abgang: 0,3 s ausblenden.
+- Listen und Übersichten: inaktive Punkte unscharf (6 px) und gedimmt (35 %), der aktive wird scharf, 8 % größer,
+  weißer Rand und Schein in der Akzentfarbe, Unterstrich in Akzentfarbe.
+- Zähler „Freigeschaltet 03/07“ oben rechts, springt auf dem Ankerwort weiter.
+- Ganz langsamer Drift (3 px pro Sekunde) bei ruhigen Vollbildern, damit das Bild nie steht.
+- Text bleibt 2 bis 3,5 s stehen.
+- Zwischen Szenen nur harte Schnitte, keine Übergangseffekte.
+- Fertige Funktionen (auftritt, fokus, aus, ein, fort): `videos/_stil/animationen/bewegung.js`.
 ## Aufbau der Szenen
-<!-- Wo steht Text, wo bist du im Bild, wie oft Vollbild-Grafik -->
+- Kamera: Brustbild mittig, geringe Schärfentiefe, dunkler Raum mit warmem Licht im Hintergrund, gedeckte Farben.
+- Alle 2 bis 4 s ein Wechsel (Schnitt, Zoom 10 bis 15 % auf die Aufnahme oder Grafik). Nie länger als 5 s dasselbe Bild.
+- Vollbild-Grafik für Kapitelübersicht, Zitate und Zahlen. Bei längeren Erklärgrafiken die Person als abgerundetes
+  Fenster unten rechts.
+- Wiederkehrendes Muster: Übersicht aller Punkte am Anfang, vor jedem Punkt dieselbe Übersicht mit dem nächsten Punkt aktiv.
+- Ton: ruhige Ambient- oder Lo-Fi-Musik deutlich unter der Stimme. Leiser Klick bei jedem Zustandswechsel, tiefes leises
+  Whoosh bei neuem Kapitel, sonst keine Effekte.
+- Vorbild-Szenen (abgenommen): `videos/_stil/animationen/01_zitat`, `02_kapitel`, `03_zahlen`.
 ## Verbotsliste
-<!-- Alles, was nie vorkommen darf. Claude schaut sich diese Liste vor jeder neuen Szene an.
-     Typische Einträge: bestimmte Farben, kleine Kärtchen auf leerem Grund (wirkt wie eine Präsentation), Stockfoto-Optik -->
+- Wort-für-Wort-Untertitel im Karaoke-Stil, bunte Untertitel mit Kontur
+- Meme-Sounds, Vine-Boom, laute Whooshes auf jedem Schnitt
+- Grelle oder bunte Hintergründe, Farbverläufe über die ganze Fläche
+- Papier-, Grunge-, Film- oder Rauschtexturen
+- 3D-Kamerafahrten, Glitch- und Wackel-Übergänge
+- Emojis, Sticker, Meme-GIFs, Stockfoto-Optik
+- Kleine Kärtchen auf leerem Grund, die wie eine Präsentation wirken
+- Mehr als eine Akzentfarbe gleichzeitig

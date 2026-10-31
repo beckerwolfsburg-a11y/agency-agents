@@ -30,3 +30,5 @@ Claude liest diese Datei vor jeder Aufgabe. Jede Regel gilt, bis der User sie ä
 - Export = genau das, was in der Vorschau abgenommen wurde. Nach der Abnahme nichts mehr ändern.
 ## Gelernt
 <!-- Hier trägt Claude nach jeder Korrektur neue Regeln ein: Datum – Regel – Grund. -->
+- 31.10.2026 – Nach den ersten Standbildern prüfen, ob die eigenen Schriften geladen sind (document.fonts, Status „loaded“). – Grund: Ein falscher Pfad in stil.css fiel beim Rendern nicht auf, Chrome nahm stillschweigend eine Ersatzschrift.
+- 31.10.2026 – Renderer hier mit `--prozesse=1` starten. – Grund: Mit mehreren Tabs hängt die Bildaufnahme (puppeteer-core 23 mit neuerem Chrome).
