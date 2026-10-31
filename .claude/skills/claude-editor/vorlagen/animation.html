@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Vorlage für eine Animation. Kopieren nach <video>/animationen/<name>/index.html und anpassen.
+     Regeln: Jedes Bild hängt nur von t ab (Sekunden). Elemente erscheinen auf den Wortzeiten aus schnitt_woerter.json.
+     Schriften: lokal ablegen oder Systemschriften nutzen, damit das Rendern ohne Internet gleich aussieht. -->
+<style>
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent}
+#film{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:Georgia,'Times New Roman',serif}
+#grund{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 40%,#22252b,#0c0d10 70%)}
+.wort{position:absolute;left:0;right:0;text-align:center;color:#fff;font-size:150px;line-height:1;opacity:0}
+#zeile1{top:330px}
+#zeile2{top:520px;font-size:90px;color:#c9ced6}
+</style></head><body>
+<div id="film">
+  <div id="grund"></div>
+  <div class="wort" id="zeile1">Komplett editiert.</div>
+  <div class="wort" id="zeile2">Mit Claude.</div>
+</div>
+<script>
+// Wortzeiten im geschnittenen Video (aus schnitt_woerter.json). Hier nur Beispielwerte.
+const WORT = { komplett: 0.4, claude: 1.6 };
+const DAUER = 4;
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+const weich = x => { x = clamp(x, 0, 1); return 1 - Math.pow(1 - x, 3); };   // schnell rein, sanft aus
+// Ein Element erscheint auf seinem Wort: in 0,35 s einblenden und 40 px von unten nach oben
+function erscheinen(el, t, ab) {
+  const e = weich((t - ab) / 0.35);
+  el.style.opacity = e; el.style.transform = `translateY(${(1 - e) * 40}px)`;
+}
+function zeige(t) {
+  erscheinen(document.getElementById('zeile1'), t, WORT.komplett);
+  erscheinen(document.getElementById('zeile2'), t, WORT.claude);
+}
+window.FILM = { dauer: DAUER, breite: 1920, hoehe: 1080, bereit: document.fonts.ready, zeige };
+</script>
+</body></html>

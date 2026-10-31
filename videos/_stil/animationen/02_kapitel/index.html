@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Testszene 2: Kapitel-Uebersicht. Vorbilder: 7-Knoten-Raster (Fuebbeker) + unscharfe inaktive Punkte und Zaehler (Lebersorger). -->
+<link rel="stylesheet" href="../stil.css">
+<style>
+#zaehler{position:absolute;top:90px;right:120px;color:var(--text2)}
+#zaehler b{color:var(--akzent);font-weight:600}
+#titel{position:absolute;top:150px;left:0;right:0;text-align:center;font-size:64px;font-weight:400}
+.knoten{position:absolute;width:300px;text-align:center}
+.kreis{width:150px;height:150px;margin:0 auto;border-radius:50%;border:2px solid var(--linie);display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+.kreis svg{width:64px;height:64px;stroke:#fff;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.name{margin-top:28px;font-size:30px;font-weight:500}
+.nr{font-size:20px;letter-spacing:.2em;color:var(--text3);margin-bottom:18px;font-weight:500}
+.unterstrich{width:0;height:2px;margin:16px auto 0;background:var(--akzent)}
+</style></head><body>
+<div id="film">
+  <div class="grund"></div>
+  <div class="marke" id="zaehler">Freigeschaltet <b id="zahl">02</b>/07</div>
+  <div class="serif" id="titel">Sieben Gewohnheiten</div>
+  <div id="raster"></div>
+</div>
+<script src="../bewegung.js"></script>
+<script>
+const ICON = {
+  schlaf:  '<path d="M44 38a18 18 0 1 1-18-24 14 14 0 0 0 18 24z"/>',
+  bewegung:'<path d="M8 32h10l6-14 10 28 6-14h16"/>',
+  fokus:   '<circle cx="32" cy="32" r="20"/><circle cx="32" cy="32" r="9"/><circle cx="32" cy="32" r="1.5"/>',
+  lesen:   '<path d="M32 18c-6-4-14-5-22-4v32c8-1 16 0 22 4 6-4 14-5 22-4V14c-8-1-16 0-22 4zM32 18v32"/>',
+  stille:  '<path d="M14 32h36"/><circle cx="32" cy="32" r="22"/>',
+  dank:    '<path d="M32 50S12 38 12 24a10 10 0 0 1 20-2 10 10 0 0 1 20 2c0 14-20 26-20 26z"/>',
+  grenzen: '<rect x="12" y="12" width="40" height="40" rx="4"/><path d="M32 12v40"/>'
+};
+const PUNKTE = [['Schlaf','schlaf'],['Bewegung','bewegung'],['Fokus','fokus'],['Lesen','lesen'],['Stille','stille'],['Dankbarkeit','dank'],['Grenzen','grenzen']];
+const raster = document.getElementById('raster');
+PUNKTE.forEach(([name, icon], i) => {
+  const reihe = i < 4 ? 0 : 1, spalte = i < 4 ? i : i - 4, anzahl = i < 4 ? 4 : 3;
+  const x = 960 + (spalte - (anzahl - 1) / 2) * 360 - 150, y = reihe ? 640 : 330;
+  raster.insertAdjacentHTML('beforeend', `<div class="knoten" id="k${i}" style="left:${x}px;top:${y}px">
+    <div class="nr">0${i + 1}</div><div class="kreis"><svg viewBox="0 0 64 64">${ICON[icon]}</svg></div>
+    <div class="name">${name}</div><div class="unterstrich"></div></div>`);
+});
+// Ankerwoerter (Beispielzeiten): Raster erscheint, dann wird Punkt 3 "Fokus" aktiv
+const WORT = { sieben: 0.2, fokus: 2.0 };
+const AKTIV = 2, ERLEDIGT = [0, 1], DAUER = 6;
+function zeige(t) {
+  auftritt(titel, t, WORT.sieben, 5.6);
+  auftritt(zaehler, t, WORT.sieben + 0.2, 5.6);
+  const a = aus(fort(t, WORT.fokus, 0.5));                     // Aktivierung von Punkt 3
+  zahl.textContent = t >= WORT.fokus ? '03' : '02';
+  PUNKTE.forEach((_, i) => {
+    const k = document.getElementById('k' + i), kreis = k.querySelector('.kreis');
+    const sichtbar = auftritt(k, t, WORT.sieben + 0.3 + i * 0.08, 5.6);
+    let f = ERLEDIGT.includes(i) ? 0.55 : 0;                   // erledigte Punkte halb scharf, offene unscharf
+    if (i === AKTIV) f = a;
+    fokus(k, f); k.style.opacity = sichtbar * (0.35 + 0.65 * f);
+    const s = i === AKTIV ? 1 + 0.08 * a : 1;
+    kreis.style.transform = `scale(${s})`;
+    kreis.style.borderColor = i === AKTIV ? `rgba(255,255,255,${0.22 + 0.78 * a})` : '';
+    kreis.style.boxShadow = i === AKTIV ? `0 0 ${40 * a}px rgba(226,114,63,${0.35 * a})` : 'none';
+    k.querySelector('.unterstrich').style.width = i === AKTIV ? `${90 * a}px` : '0';
+    k.querySelector('.nr').style.color = i === AKTIV && a > 0.5 ? 'var(--akzent)' : '';
+  });
+}
+window.FILM = { dauer: DAUER, breite: 1920, hoehe: 1080, bereit: document.fonts.ready, zeige };
+</script>
+</body></html>
