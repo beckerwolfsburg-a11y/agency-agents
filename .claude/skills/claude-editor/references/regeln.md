@@ -1,5 +1,11 @@
 # Regeln
 Claude liest diese Datei vor jeder Aufgabe. Jede Regel gilt, bis der User sie ändert.
+## Aufnahme
+- Vor der Aufnahme dem User diese Punkte nennen: mittig vor der Kamera sitzen, Mikrofonarm aus dem Bild, möglichst keine
+  spiegelnden Brillengläser. So bleibt später Text hinter der Person möglich (Freistellung).
+- Jeden Satz so oft sprechen, bis er sitzt, und danach weitermachen. Abbrechen und neu ansetzen ist erlaubt.
+- Richtwert: Die Rohaufnahme ist etwa 2- bis 2,5-mal so lang wie das fertige Video (Vorbild: 36 min Aufnahme, rund 800
+  Abschnitte, 188 doppelte Versuche, knapp 15 min Ergebnis). Deutlich mehr deutet auf Probleme beim Zuordnen hin.
 ## Schnitt
 - Von jedem Satz bleibt nur der **letzte vollständige Versuch**. Abgebrochene Wörter, Fehlstarts und Füllwörter fliegen raus –
   außer der User sagt sie absichtlich (z. B. ein „äh“ als Beispiel im Skript). Solche Stellen gehören in die Schnittliste.
@@ -12,6 +18,8 @@ Claude liest diese Datei vor jeder Aufgabe. Jede Regel gilt, bis der User sie ä
 - Jedes Element erscheint genau auf dem Wort, zu dem es gehört (Wortzeiten aus `schnitt/schnitt_woerter.json`).
 - Das Bild zeigt die **Kernaussage** des Satzes, nicht ein Nebenwort.
 - Keine Bildart zweimal hintereinander (Wechsel zwischen dir im Bild, Vollbild-Grafik, Bildschirmaufnahme, Text).
+- Keine Szene sieht aus wie die vorherige. Wiederkehrende Elemente (Kapitelübersicht) sind erlaubt, aber nie zwei gleich aufgebaute Grafiken direkt nacheinander.
+- Echte Webseiten als Bildschirmaufnahme mit Scrollen und sichtbarem Mauszeiger zeigen, die wichtige Stelle markieren.
 - Text bleibt lange genug stehen, damit man ihn lesen kann (Faustregel: 0,3 s pro Wort, mindestens 1,5 s).
 - Was gesprochen wird, nicht noch zusätzlich ausschreiben. Lieber zeigen als beschriften.
 - Keine leere Sekunde: Jede Sekunde im Vollbild hat Inhalt.
@@ -22,7 +30,7 @@ Claude liest diese Datei vor jeder Aufgabe. Jede Regel gilt, bis der User sie ä
   Grafikspeicher beim Rendern, und Teile fehlen dann zufällig im Bild. Eine Fläche nehmen und ihre Farbe ändern.
 ## Ton
 - Musik liegt deutlich leiser unter der Stimme. Jedes Wort muss verständlich bleiben.
-- Effekte nur auf wichtige Momente. Ein Effekt auf jeder Bewegung macht das Video unruhig.
+- Effekte nur auf wichtige Momente. Weniger wirkt besser. Ein Effekt auf jeder Bewegung macht das Video unruhig.
 - Endlautstärke −14 LUFS.
 ## Prüfen
 - Vor jeder Vorschau: Kontaktbogen alle 0,5 s (Effekte im Intro: jedes Bild), `pruefen.py` ohne Funde, Bild- und Tonlänge gleich.
@@ -32,3 +40,4 @@ Claude liest diese Datei vor jeder Aufgabe. Jede Regel gilt, bis der User sie ä
 <!-- Hier trägt Claude nach jeder Korrektur neue Regeln ein: Datum – Regel – Grund. -->
 - 31.10.2026 – Nach den ersten Standbildern prüfen, ob die eigenen Schriften geladen sind (document.fonts, Status „loaded“). – Grund: Ein falscher Pfad in stil.css fiel beim Rendern nicht auf, Chrome nahm stillschweigend eine Ersatzschrift.
 - 31.10.2026 – Renderer hier mit `--prozesse=1` starten. – Grund: Mit mehreren Tabs hängt die Bildaufnahme (puppeteer-core 23 mit neuerem Chrome).
+- 31.10.2026 – Hinweis aus dem Vorbild-Video: Orange wirkte dort wie typische KI-Grafik und wurde durch Silber ersetzt. Unser Akzent ist bewusst Orange (#E2723F, vom User abgenommen). Wenn der User Grafiken „generisch“ oder „nach KI“ findet, zuerst die Akzentfarbe prüfen. – Grund: Erfahrung aus dem Video zum Skill.
