@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Testszene 1: Titel / Zitat. Vorbild: Regelkarten bei Lebersorger (Serif-Zitat, Nummer darueber, ruhiges Einblenden). -->
+<link rel="stylesheet" href="../stil.css">
+<style>
+#nummer{position:absolute;top:370px;left:0;right:0;text-align:center;color:var(--akzent)}
+#zitat{position:absolute;top:440px;left:200px;right:200px;text-align:center;font-size:104px;line-height:1.15;font-weight:400}
+#zitat em{font-style:italic}
+#strich{position:absolute;top:660px;left:50%;width:120px;height:2px;margin-left:-60px;background:var(--linie);transform-origin:center}
+#quelle{position:absolute;top:690px;left:0;right:0;text-align:center;font-size:30px;color:var(--text2);font-weight:400}
+</style></head><body>
+<div id="film">
+  <div class="grund" id="grund"></div>
+  <div class="marke" id="nummer">Regel 03</div>
+  <div class="serif" id="zitat">„Was du wiederholst, <em>wirst du.</em>“</div>
+  <div id="strich"></div>
+  <div id="quelle">Aristoteles, frei übersetzt</div>
+</div>
+<script src="../bewegung.js"></script>
+<script>
+// Ankerwoerter (Beispielzeiten, spaeter aus schnitt_woerter.json)
+const WORT = { regel: 0.3, wiederholst: 0.9, quelle: 2.2 };
+const DAUER = 5;
+function zeige(t) {
+  auftritt(nummer, t, WORT.regel, 4.6);
+  auftritt(zitat, t, WORT.wiederholst, 4.6, 18);
+  strich.style.transform = `scaleX(${aus(fort(t, WORT.quelle - 0.2, 0.6))})`;
+  strich.style.opacity = 1 - ein(fort(t, 4.6, 0.3));
+  auftritt(quelle, t, WORT.quelle, 4.6);
+  // ganz langsamer Drift nach oben ueber die ganze Szene, damit das Bild nie stillsteht
+  document.getElementById('film').style.transform = `translateY(${-t * 3}px)`;
+}
+window.FILM = { dauer: DAUER, breite: 1920, hoehe: 1080, bereit: document.fonts.ready, zeige };
+</script>
+</body></html>

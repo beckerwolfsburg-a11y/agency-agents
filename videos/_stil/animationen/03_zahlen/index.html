@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Testszene 3: Vollbild-Grafik mit Bedeutungsfarben. Vorbild: 20 gruene Punkte gegen 1 roten (Fuebbeker, mentaler Filter). -->
+<link rel="stylesheet" href="../stil.css">
+<style>
+.punkt{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%}
+.gut{background:var(--gut)}
+#rot{background:var(--schlecht)}
+.zahl{position:absolute;top:400px;width:600px;text-align:center;font-size:220px;font-weight:300;line-height:1}
+#z1{left:260px;color:var(--gut)} #z2{left:1060px;color:var(--schlecht)}
+.label{position:absolute;top:650px;width:600px;text-align:center;color:var(--text2)}
+#l1{left:260px} #l2{left:1060px}
+#trenner{position:absolute;left:959px;top:330px;width:2px;height:420px;background:var(--linie);transform-origin:top}
+</style></head><body>
+<div id="film">
+  <div class="grund"></div>
+  <div id="trenner"></div>
+  <div id="punkte"></div>
+  <div class="zahl" id="z1">20</div><div class="zahl" id="z2">1</div>
+  <div class="marke label" id="l1">Komplimente</div><div class="marke label" id="l2">Kritik</div>
+</div>
+<script src="../bewegung.js"></script>
+<script>
+// 20 gruene Punkte im Raster 5x4 links, 1 roter Punkt rechts. Feste Positionen, kein Zufall.
+const punkte = document.getElementById('punkte'), GRUEN = [];
+for (let i = 0; i < 20; i++) {
+  const x = 380 + (i % 5) * 90, y = 400 + Math.floor(i / 5) * 90;
+  punkte.insertAdjacentHTML('beforeend', `<div class="punkt gut" id="g${i}" style="left:${x}px;top:${y}px"></div>`);
+  GRUEN.push([x, y]);
+}
+punkte.insertAdjacentHTML('beforeend', '<div class="punkt" id="rot" style="left:1360px;top:535px"></div>');
+// Ankerwoerter (Beispielzeiten)
+const WORT = { komplimente: 0.3, kritik: 1.6, merkst: 2.8 };
+const DAUER = 5;
+function zeige(t) {
+  trenner.style.transform = `scaleY(${aus(fort(t, 0.1, 0.7))})`;
+  trenner.style.opacity = 1 - ein(fort(t, 4.6, 0.3));
+  const zus = aus(fort(t, WORT.merkst, 0.6));                 // Punkte ziehen sich zur Zahl zusammen
+  GRUEN.forEach(([x, y], i) => {
+    const g = document.getElementById('g' + i), e = aus(fort(t, WORT.komplimente + i * 0.035, 0.35));
+    g.style.opacity = e * (1 - zus);
+    g.style.transform = `translate(${(560 - x) * zus}px,${(535 - y) * zus}px) scale(${(0.4 + 0.6 * e) * (1 - 0.6 * zus)})`;
+  });
+  const r = aus(fort(t, WORT.kritik, 0.35));
+  rot.style.opacity = r * (1 - zus);
+  rot.style.transform = `scale(${(0.4 + 0.6 * r) * (1 + 0.6 * aus(fort(t, WORT.kritik + 0.3, 0.8)) ) * (1 - 0.6 * zus)})`;
+  rot.style.boxShadow = `0 0 ${60 * r}px rgba(229,72,77,.55)`;
+  auftritt(z1, t, WORT.merkst + 0.15, 4.6, 20);
+  auftritt(z2, t, WORT.merkst + 0.15, 4.6, 20);
+  auftritt(l1, t, WORT.merkst + 0.35, 4.6);
+  auftritt(l2, t, WORT.merkst + 0.35, 4.6);
+}
+window.FILM = { dauer: DAUER, breite: 1920, hoehe: 1080, bereit: document.fonts.ready, zeige };
+</script>
+</body></html>

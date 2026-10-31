@@ -1,0 +1,19 @@
+/* Gemeinsamer Stil fuer alle Szenen. Abgeleitet aus Lebersorger und Fuebbeker (vidIQ-Analyse, 31.10.2026). */
+@font-face{font-family:'Playfair';src:url('../material/schriften/PlayfairDisplay-latin.woff2') format('woff2');font-weight:400 900;font-style:normal}
+@font-face{font-family:'Playfair';src:url('../material/schriften/PlayfairDisplay-Italic-latin.woff2') format('woff2');font-weight:400 900;font-style:italic}
+@font-face{font-family:'InterLokal';src:url('../material/schriften/Inter-Light.otf');font-weight:300}
+@font-face{font-family:'InterLokal';src:url('../material/schriften/Inter-Regular.otf');font-weight:400}
+@font-face{font-family:'InterLokal';src:url('../material/schriften/Inter-Medium.otf');font-weight:500}
+@font-face{font-family:'InterLokal';src:url('../material/schriften/Inter-SemiBold.otf');font-weight:600}
+:root{
+  --grund:#0B0B0C; --grund-licht:#1A1B1F;
+  --text:#FFFFFF; --text2:#8E9096; --text3:#55575C;
+  --linie:rgba(255,255,255,.22); --karte:rgba(255,255,255,.045);
+  --akzent:#E2723F;              /* eine warme Akzentfarbe, nur fuer aktive Zustaende */
+  --gut:#4EBA6F; --schlecht:#E5484D;
+}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent}
+#film{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:'InterLokal',Inter,sans-serif;color:var(--text)}
+.grund{position:absolute;inset:0;background:radial-gradient(ellipse 65% 60% at 50% 45%,var(--grund-licht),var(--grund) 72%)}
+.marke{font-weight:500;font-size:26px;letter-spacing:.28em;text-transform:uppercase}
+.serif{font-family:'Playfair',Georgia,serif}
