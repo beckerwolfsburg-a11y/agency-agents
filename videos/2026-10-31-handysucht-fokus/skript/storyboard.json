@@ -1,0 +1,1053 @@
+[
+ {
+  "von_satz": 1,
+  "bis_satz": 1,
+  "bildart": "B-Roll",
+  "ankerwort": "hin",
+  "beschreibung": "Du setzt dich an den Schreibtisch und klappst den Laptop auf.",
+  "szene": "",
+  "dauer_geschaetzt": 4.4,
+  "saetze": [
+   "Du setzt dich hin, um eine Stunde konzentriert zu arbeiten."
+  ]
+ },
+ {
+  "von_satz": 2,
+  "bis_satz": 2,
+  "bildart": "Du im Bild",
+  "ankerwort": "Hand",
+  "beschreibung": "Du im Bild, das Handy schon in der Hand, Blick kurz darauf.",
+  "szene": "",
+  "dauer_geschaetzt": 4.0,
+  "saetze": [
+   "Nach zehn Minuten liegt das Handy in deiner Hand."
+  ]
+ },
+ {
+  "von_satz": 3,
+  "bis_satz": 4,
+  "bildart": "B-Roll",
+  "ankerwort": "weglegst",
+  "beschreibung": "Handy wird weggelegt, Blick zurück auf den Bildschirm, nur der Cursor blinkt.",
+  "szene": "",
+  "dauer_geschaetzt": 11.1,
+  "saetze": [
+   "Du weißt nicht mal mehr, warum du es genommen hast.",
+   "Und als du es weglegst, ist der Gedanke weg, an dem du gerade dran warst."
+  ]
+ },
+ {
+  "von_satz": 5,
+  "bis_satz": 6,
+  "bildart": "Du im Bild",
+  "ankerwort": "Disziplin",
+  "beschreibung": "Du direkt in die Kamera, Zoom 10 % auf „Disziplin“.",
+  "szene": "",
+  "dauer_geschaetzt": 4.0,
+  "saetze": [
+   "Kennst du das?",
+   "Das liegt nicht an fehlender Disziplin."
+  ]
+ },
+ {
+  "von_satz": 7,
+  "bis_satz": 7,
+  "bildart": "Text",
+  "ankerwort": "umtrainiert",
+  "beschreibung": "Text: „Umtrainiert.“ in Serif, kursiv, mittig.",
+  "szene": "t_umtrainiert",
+  "dauer_geschaetzt": 7.1,
+  "saetze": [
+   "Dein Gehirn wurde über Jahre umtrainiert, und zwar von einem Gerät, das genau dafür gebaut ist."
+  ]
+ },
+ {
+  "von_satz": 8,
+  "bis_satz": 8,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "vier",
+  "beschreibung": "Übersicht mit fünf Kreisen: Stille, Unterbrechung, Reize, Langeweile, Lösung. Alle unscharf, Zähler „Freigeschaltet 00/05“. Die ersten vier leuchten nacheinander kurz auf.",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 6.2,
+  "saetze": [
+   "In diesem Video zeige ich dir vier Gründe, warum dein Handy deinen Fokus zerstört."
+  ]
+ },
+ {
+  "von_satz": 9,
+  "bis_satz": 9,
+  "bildart": "Du im Bild",
+  "ankerwort": "fünf",
+  "beschreibung": "Du im Bild, Zoom 10 % auf „zurückholst“.",
+  "szene": "",
+  "dauer_geschaetzt": 4.9,
+  "saetze": [
+   "Danach bekommst du fünf Schritte, mit denen du ihn dir zurückholst."
+  ]
+ },
+ {
+  "von_satz": 10,
+  "bis_satz": 10,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "meisten",
+  "beschreibung": "Übersicht, Kreis 01 „Stille“ wird aktiv, Zähler springt auf 01/05.",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 3.6,
+  "saetze": [
+   "Die meisten glauben, das Problem sind die Benachrichtigungen."
+  ]
+ },
+ {
+  "von_satz": 11,
+  "bis_satz": 12,
+  "bildart": "Du im Bild",
+  "ankerwort": "einfach",
+  "beschreibung": "Du im Bild, kurzes Kopfschütteln bei „nicht“.",
+  "szene": "",
+  "dauer_geschaetzt": 6.2,
+  "saetze": [
+   "Schalte sie aus, und alles ist gut.",
+   "Ganz so einfach ist es leider nicht."
+  ]
+ },
+ {
+  "von_satz": 13,
+  "bis_satz": 14,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "2017",
+  "beschreibung": "Browserfenster mit der Studie Ward et al. 2017, langsam scrollend, Titel und Teilnehmerzahl markiert.",
+  "szene": "beleg_ward",
+  "dauer_geschaetzt": 9.3,
+  "saetze": [
+   "Forscher der Universität Texas haben 2017 Experimente mit fast 800 Teilnehmern gemacht.",
+   "Alle sollten Aufgaben lösen, die Konzentration und Arbeitsgedächtnis brauchen."
+  ]
+ },
+ {
+  "von_satz": 15,
+  "bis_satz": 21,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Tisch",
+  "beschreibung": "Drei Spalten mit Symbolen: Tisch, Tasche, Nebenraum. Jedes Symbol erscheint auf seinem Wort. Auf „stumm“ ein durchgestrichener Lautsprecher über allen. Auf „besten“ leuchtet Nebenraum grün, auf „schlechtesten“ Tisch rot.",
+  "szene": "drei_gruppen",
+  "dauer_geschaetzt": 29.3,
+  "saetze": [
+   "Der einzige Unterschied war, wo ihr Handy lag.",
+   "Bei einer Gruppe lag es auf dem Tisch, mit dem Display nach unten.",
+   "Bei der zweiten Gruppe steckte es in der Tasche.",
+   "Die dritte Gruppe hatte es im Nebenraum gelassen.",
+   "Alle Handys waren stumm geschaltet.",
+   "Die Gruppe mit dem Handy im Nebenraum schnitt am besten ab.",
+   "Die Gruppe mit dem Handy auf dem Tisch schnitt am schlechtesten ab."
+  ]
+ },
+ {
+  "von_satz": 22,
+  "bis_satz": 22,
+  "bildart": "Text",
+  "ankerwort": "Brain",
+  "beschreibung": "Text: „Brain Drain“ in Serif.",
+  "szene": "t_brain_drain",
+  "dauer_geschaetzt": 3.1,
+  "saetze": [
+   "Die Forscher nennen diesen Effekt Brain Drain."
+  ]
+ },
+ {
+  "von_satz": 23,
+  "bis_satz": 24,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "Teil",
+  "beschreibung": "Neben dir ein Ring für deine Denkkraft. Auf „Teil“ wird ein oranges Segment abgezogen.",
+  "szene": "ring_kapazitaet",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "Ein Teil deines Gehirns ist damit beschäftigt, das Handy nicht zu nehmen.",
+   "Diese Kraft fehlt dir dann für das, was du gerade machst."
+  ]
+ },
+ {
+  "von_satz": 25,
+  "bis_satz": 26,
+  "bildart": "B-Roll",
+  "ankerwort": "Prüfung",
+  "beschreibung": "Lernen am Schreibtisch, das Handy liegt ruhig daneben, die Schärfe wandert langsam aufs Handy.",
+  "szene": "",
+  "dauer_geschaetzt": 9.3,
+  "saetze": [
+   "Stell dir vor, du lernst für eine Prüfung oder schreibst an einem wichtigen Text.",
+   "Das Handy liegt neben dir, ganz ruhig."
+  ]
+ },
+ {
+  "von_satz": 27,
+  "bis_satz": 28,
+  "bildart": "Du im Bild",
+  "ankerwort": "trotzdem",
+  "beschreibung": "Du in die Kamera, Zoom auf „trotzdem“.",
+  "szene": "",
+  "dauer_geschaetzt": 6.7,
+  "saetze": [
+   "Du denkst, es stört dich nicht.",
+   "Es stört dich trotzdem, du merkst es nur nicht."
+  ]
+ },
+ {
+  "von_satz": 29,
+  "bis_satz": 30,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "abhängig",
+  "beschreibung": "Achse „Abhängigkeit vom Handy“ von niedrig nach hoch, der Balken „Leistungsverlust“ wächst mit.",
+  "szene": "abhaengigkeit",
+  "dauer_geschaetzt": 16.4,
+  "saetze": [
+   "Am stärksten war der Effekt übrigens bei den Teilnehmern, die sich selbst als besonders abhängig von ihrem Handy eingeschätzt hatten.",
+   "Je mehr du am Handy hängst, desto mehr kostet es dich, wenn es nur neben dir liegt."
+  ]
+ },
+ {
+  "von_satz": 31,
+  "bis_satz": 33,
+  "bildart": "B-Roll",
+  "ankerwort": "Tastatur",
+  "beschreibung": "Arbeitstag: Handy rechts neben der Tastatur, Hände tippen, der Blick bleibt auf dem Bildschirm.",
+  "szene": "",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "Denk an einen normalen Arbeitstag.",
+   "Das Handy liegt rechts neben der Tastatur, weil du ja erreichbar sein willst.",
+   "Du schaust nicht mal drauf."
+  ]
+ },
+ {
+  "von_satz": 34,
+  "bis_satz": 35,
+  "bildart": "Du im Bild",
+  "ankerwort": "halber",
+  "beschreibung": "Du im Bild, müdes Ausatmen.",
+  "szene": "",
+  "dauer_geschaetzt": 8.4,
+  "saetze": [
+   "Trotzdem fühlst du dich nach zwei Stunden, als hättest du mit halber Kraft gearbeitet.",
+   "Genau das ist der Grund."
+  ]
+ },
+ {
+  "von_satz": 36,
+  "bis_satz": 36,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "zweite",
+  "beschreibung": "Neben dir zwei Balken: „Deine Aufgabe“ und auf „zweite“ dazu „Handy nicht nehmen“.",
+  "szene": "zwei_aufgaben",
+  "dauer_geschaetzt": 6.7,
+  "saetze": [
+   "Dein Gehirn hat die ganze Zeit eine zweite Aufgabe erledigt, von der du nichts wusstest."
+  ]
+ },
+ {
+  "von_satz": 37,
+  "bis_satz": 37,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "kurzer",
+  "beschreibung": "Übersicht, Kreis 02 „Unterbrechung“ wird aktiv, Zähler 02/05.",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 3.6,
+  "saetze": [
+   "Ein kurzer Blick aufs Handy dauert zehn Sekunden."
+  ]
+ },
+ {
+  "von_satz": 38,
+  "bis_satz": 39,
+  "bildart": "Du im Bild",
+  "ankerwort": "echten",
+  "beschreibung": "Du im Bild, leichtes Lächeln bei „zumindest“.",
+  "szene": "",
+  "dauer_geschaetzt": 4.9,
+  "saetze": [
+   "So fühlt es sich zumindest an.",
+   "Die echten Kosten kommen danach."
+  ]
+ },
+ {
+  "von_satz": 40,
+  "bis_satz": 41,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "23",
+  "beschreibung": "Zahlengrafik: Zähler läuft von 0:10 auf 23 Minuten, Label „Rückkehr zur Aufgabe“, darunter klein „Gloria Mark“.",
+  "szene": "uhr_23",
+  "dauer_geschaetzt": 16.0,
+  "saetze": [
+   "Die Informatikerin Gloria Mark erforscht seit über zwanzig Jahren, wie Menschen am Bildschirm arbeiten.",
+   "Sie hat herausgefunden, dass es nach einer Unterbrechung im Schnitt gut 23 Minuten dauert, bis Menschen wieder bei ihrer ursprünglichen Aufgabe sind."
+  ]
+ },
+ {
+  "von_satz": 42,
+  "bis_satz": 43,
+  "bildart": "Text",
+  "ankerwort": "Aufmerksamkeitsrest",
+  "beschreibung": "Text: „Aufmerksamkeitsrest“ in Serif, darunter klein „Sophie Leroy, 2009“.",
+  "szene": "t_aufmerksamkeitsrest",
+  "dauer_geschaetzt": 12.0,
+  "saetze": [
+   "Dazu kommt etwas, das die Psychologin Sophie Leroy Aufmerksamkeitsrest nennt.",
+   "Wenn du von einer Aufgabe zur nächsten springst, bleibt ein Teil deiner Gedanken bei der alten hängen."
+  ]
+ },
+ {
+  "von_satz": 44,
+  "bis_satz": 44,
+  "bildart": "B-Roll",
+  "ankerwort": "Nachricht",
+  "beschreibung": "Nachricht lesen, Handy weglegen, weiterarbeiten.",
+  "szene": "",
+  "dauer_geschaetzt": 4.9,
+  "saetze": [
+   "Du liest eine Nachricht, legst das Handy weg und arbeitest weiter."
+  ]
+ },
+ {
+  "von_satz": 45,
+  "bis_satz": 47,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "Antwort",
+  "beschreibung": "Neben dir erscheinen untereinander und leicht unscharf: „Die Antwort“ und „Das Foto“.",
+  "szene": "gedankenrest",
+  "dauer_geschaetzt": 11.1,
+  "saetze": [
+   "Ein Teil von dir denkt trotzdem noch an die Nachricht.",
+   "An die Antwort, die du schreiben musst.",
+   "An das Foto, das du gerade gesehen hast."
+  ]
+ },
+ {
+  "von_satz": 48,
+  "bis_satz": 48,
+  "bildart": "B-Roll",
+  "ankerwort": "Summen",
+  "beschreibung": "Handy vibriert auf dem Tisch, das Display leuchtet, niemand schaut hin.",
+  "szene": "",
+  "dauer_geschaetzt": 2.7,
+  "saetze": [
+   "Sogar das bloße Summen reicht schon."
+  ]
+ },
+ {
+  "von_satz": 49,
+  "bis_satz": 50,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "Florida",
+  "beschreibung": "Browserfenster mit der Studie Stothart et al. 2015, Kernsatz markiert.",
+  "szene": "beleg_stothart",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "In einer Studie der Florida State University wurden Teilnehmer bei einer Konzentrationsaufgabe deutlich schlechter, sobald eine Benachrichtigung kam.",
+   "Sie mussten nicht mal draufschauen."
+  ]
+ },
+ {
+  "von_satz": 51,
+  "bis_satz": 52,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "zehn",
+  "beschreibung": "Zeitstrahl eines Arbeitstags von 9 bis 17 Uhr. Alle zehn Minuten ein roter Strich, keine Lücke bleibt lang genug für 23 Minuten Fokus.",
+  "szene": "zeitstrahl",
+  "dauer_geschaetzt": 11.6,
+  "saetze": [
+   "Rechne das mal für deinen Tag durch.",
+   "Wenn du alle zehn Minuten aufs Handy schaust, kommst du nie in den Zustand, in dem gute Arbeit entsteht."
+  ]
+ },
+ {
+  "von_satz": 53,
+  "bis_satz": 54,
+  "bildart": "Du im Bild",
+  "ankerwort": "müde",
+  "beschreibung": "Du im Bild, Zoom auf „müde“.",
+  "szene": "",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "Du bleibst den ganzen Tag an der Oberfläche.",
+   "Abends wunderst du dich, warum du so müde bist, obwohl du kaum etwas geschafft hast."
+  ]
+ },
+ {
+  "von_satz": 55,
+  "bis_satz": 58,
+  "bildart": "B-Roll",
+  "ankerwort": "Präsentation",
+  "beschreibung": "Präsentation am Laptop, eine Nachricht aus der Familiengruppe poppt aufs Handy, antworten, Mails, Video.",
+  "szene": "",
+  "dauer_geschaetzt": 16.0,
+  "saetze": [
+   "Ein Beispiel.",
+   "Du willst eine Präsentation fertig machen.",
+   "Nach einer Viertelstunde kommt eine Nachricht aus der Familiengruppe.",
+   "Du antwortest kurz, schaust dabei noch schnell in die Mails und siehst ein Video, das dir jemand geschickt hat."
+  ]
+ },
+ {
+  "von_satz": 59,
+  "bis_satz": 60,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "Folie",
+  "beschreibung": "Bildschirmaufnahme: dieselbe Folie, der Cursor springt hin und her.",
+  "szene": "",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "Nach fünf Minuten bist du zurück an der Präsentation.",
+   "Du liest die letzte Folie dreimal, bis du wieder weißt, was du sagen wolltest."
+  ]
+ },
+ {
+  "von_satz": 61,
+  "bis_satz": 62,
+  "bildart": "Du im Bild",
+  "ankerwort": "Bildschirmzeit",
+  "beschreibung": "Du im Bild, ernster Blick.",
+  "szene": "",
+  "dauer_geschaetzt": 6.7,
+  "saetze": [
+   "Diese Minuten tauchen in keiner Bildschirmzeit auf.",
+   "Sie fehlen dir trotzdem, jeden Tag aufs Neue."
+  ]
+ },
+ {
+  "von_satz": 63,
+  "bis_satz": 63,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "entsperrst",
+  "beschreibung": "Übersicht, Kreis 03 „Reize“ wird aktiv, Zähler 03/05.",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 6.2,
+  "saetze": [
+   "Jedes Mal, wenn du dein Handy entsperrst, weißt du nicht genau, was dich erwartet."
+  ]
+ },
+ {
+  "von_satz": 64,
+  "bis_satz": 66,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "Like",
+  "beschreibung": "Handy-Bildschirmaufnahme in drei schnellen Schnitten: Nachricht, Like, leerer Sperrbildschirm.",
+  "szene": "",
+  "dauer_geschaetzt": 5.3,
+  "saetze": [
+   "Vielleicht eine Nachricht von einem Freund.",
+   "Vielleicht ein Like.",
+   "Vielleicht gar nichts."
+  ]
+ },
+ {
+  "von_satz": 67,
+  "bis_satz": 68,
+  "bildart": "Text",
+  "ankerwort": "variable",
+  "beschreibung": "Text: „Variable Belohnung“ in Serif.",
+  "szene": "t_variable",
+  "dauer_geschaetzt": 5.3,
+  "saetze": [
+   "Genau diese Ungewissheit macht es so stark.",
+   "Psychologen nennen das variable Belohnung."
+  ]
+ },
+ {
+  "von_satz": 69,
+  "bis_satz": 70,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Spielautomaten",
+  "beschreibung": "Drei Walzen drehen sich mit den Symbolen Nachricht, Herz und leer und bleiben auf leer stehen.",
+  "szene": "walzen",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "Es ist dasselbe Prinzip wie beim Spielautomaten.",
+   "Wenn eine Belohnung unvorhersehbar kommt, greifst du öfter zu, als wenn sie jedes Mal sicher wäre."
+  ]
+ },
+ {
+  "von_satz": 71,
+  "bis_satz": 72,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "Dopamin",
+  "beschreibung": "Neben dir eine Kurve „Dopamin“, die schon vor dem Symbol „Belohnung“ ansteigt.",
+  "szene": "dopamin_kurve",
+  "dauer_geschaetzt": 10.7,
+  "saetze": [
+   "Dein Gehirn schüttet Dopamin schon in der Erwartung aus, nicht erst bei der Belohnung selbst.",
+   "Das Problem ist, was das mit deiner Aufmerksamkeit macht."
+  ]
+ },
+ {
+  "von_satz": 73,
+  "bis_satz": 75,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "47",
+  "beschreibung": "Zahlengrafik wie Testszene 03: „2:30“ mit Label 2004 schrumpft zu „0:47“ mit Label heute, klein „Gloria Mark“.",
+  "szene": "aufmerksamkeit_47",
+  "dauer_geschaetzt": 15.1,
+  "saetze": [
+   "Gloria Mark hat auch gemessen, wie lange Menschen am Bildschirm bei einer Sache bleiben.",
+   "Im Jahr 2004 waren es im Schnitt etwa zweieinhalb Minuten.",
+   "In ihren neueren Messungen sind es nur noch 47 Sekunden."
+  ]
+ },
+ {
+  "von_satz": 76,
+  "bis_satz": 76,
+  "bildart": "Du im Bild",
+  "ankerwort": "Langsame",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 5.3,
+  "saetze": [
+   "Wenn du jeden Tag unzählige kurze Reize bekommst, wird alles Langsame anstrengend."
+  ]
+ },
+ {
+  "von_satz": 77,
+  "bis_satz": 79,
+  "bildart": "B-Roll",
+  "ankerwort": "Buch",
+  "beschreibung": "Drei kurze Bilder: aufgeschlagenes Buch, zwei Menschen im Gespräch, leeres Dokument mit blinkendem Cursor.",
+  "szene": "",
+  "dauer_geschaetzt": 8.0,
+  "saetze": [
+   "Ein Buch.",
+   "Ein langes Gespräch.",
+   "Eine Aufgabe, bei der du erst nach einer halben Stunde ein Ergebnis siehst."
+  ]
+ },
+ {
+  "von_satz": 80,
+  "bis_satz": 81,
+  "bildart": "Du im Bild",
+  "ankerwort": "eingestellt",
+  "beschreibung": "Du im Bild, Zoom auf „eingestellt“.",
+  "szene": "",
+  "dauer_geschaetzt": 8.4,
+  "saetze": [
+   "Das fühlt sich dann zäh an.",
+   "Das liegt nicht an der Aufgabe, sondern daran, worauf dein Gehirn eingestellt ist."
+  ]
+ },
+ {
+  "von_satz": 82,
+  "bis_satz": 83,
+  "bildart": "B-Roll",
+  "ankerwort": "Serie",
+  "beschreibung": "Eine Serie läuft auf dem Fernseher, davor scrollt eine Hand auf dem Handy.",
+  "szene": "",
+  "dauer_geschaetzt": 9.8,
+  "saetze": [
+   "Vielleicht merkst du das selbst beim Serienschauen.",
+   "Du hast nebenbei das Handy in der Hand, weil die Serie allein nicht mehr reicht."
+  ]
+ },
+ {
+  "von_satz": 84,
+  "bis_satz": 85,
+  "bildart": "Text",
+  "ankerwort": "Training",
+  "beschreibung": "Text in zwei Zeilen: „Kein Charakterfehler.“ und auf „Training“ darunter „Training.“",
+  "szene": "t_training",
+  "dauer_geschaetzt": 5.8,
+  "saetze": [
+   "Das ist kein Charakterfehler.",
+   "Das ist Training, nur eben in die falsche Richtung."
+  ]
+ },
+ {
+  "von_satz": 86,
+  "bis_satz": 89,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "Feed",
+  "beschreibung": "Handy-Bildschirmaufnahme: endloser Feed, Autoplay startet das nächste Video, Ziehen zum Aktualisieren.",
+  "szene": "",
+  "dauer_geschaetzt": 13.3,
+  "saetze": [
+   "Schau dir an, wie Apps gebaut sind.",
+   "Der Feed hört nie auf.",
+   "Nach dem einen Video startet automatisch das nächste.",
+   "Zum Aktualisieren ziehst du nach unten, wie an einem Hebel."
+  ]
+ },
+ {
+  "von_satz": 90,
+  "bis_satz": 91,
+  "bildart": "Du im Bild",
+  "ankerwort": "Zufall",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 7.1,
+  "saetze": [
+   "Nichts davon ist Zufall.",
+   "Teams aus Designern und Psychologen arbeiten daran, dass du möglichst lange bleibst."
+  ]
+ },
+ {
+  "von_satz": 92,
+  "bis_satz": 93,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "Branche",
+  "beschreibung": "Neben dir viele graue Punkte gegenüber einem einzelnen Punkt in Akzentfarbe.",
+  "szene": "branche",
+  "dauer_geschaetzt": 10.2,
+  "saetze": [
+   "Du sitzt also einer ganzen Branche gegenüber, die von deiner Aufmerksamkeit lebt.",
+   "Dass du dabei manchmal verlierst, sagt nichts über deinen Willen aus."
+  ]
+ },
+ {
+  "von_satz": 94,
+  "bis_satz": 94,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Kasse",
+  "beschreibung": "Übersicht, Kreis 04 „Langeweile“ wird aktiv, Zähler 04/05.",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 5.8,
+  "saetze": [
+   "Denk mal an das letzte Mal, als du an einer Kasse gewartet hast."
+  ]
+ },
+ {
+  "von_satz": 95,
+  "bis_satz": 96,
+  "bildart": "B-Roll",
+  "ankerwort": "Ampel",
+  "beschreibung": "Warten an der Ampel, die Hand geht sofort zum Handy.",
+  "szene": "",
+  "dauer_geschaetzt": 6.2,
+  "saetze": [
+   "Oder an der Ampel.",
+   "Wie lange hat es gedauert, bis das Handy draußen war?"
+  ]
+ },
+ {
+  "von_satz": 97,
+  "bis_satz": 98,
+  "bildart": "Du im Bild",
+  "ankerwort": "Sekunden",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 9.3,
+  "saetze": [
+   "Für die meisten von uns ist Langeweile heute nach wenigen Sekunden vorbei.",
+   "Genau da liegt ein Problem, das kaum jemand sieht."
+  ]
+ },
+ {
+  "von_satz": 99,
+  "bis_satz": 100,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "sortiert",
+  "beschreibung": "Netz aus Punkten. Auf „sortiert“, „verknüpft“ und „Pläne“ erscheint je ein Wort, Linien verbinden sie.",
+  "szene": "gehirn_ruhe",
+  "dauer_geschaetzt": 7.1,
+  "saetze": [
+   "In Momenten ohne Input arbeitet dein Gehirn weiter.",
+   "Es sortiert Erlebnisse, verknüpft Ideen und macht Pläne."
+  ]
+ },
+ {
+  "von_satz": 101,
+  "bis_satz": 101,
+  "bildart": "B-Roll",
+  "ankerwort": "Spazierengehen",
+  "beschreibung": "Spaziergang ohne Kopfhörer, Blick in die Ferne.",
+  "szene": "",
+  "dauer_geschaetzt": 4.4,
+  "saetze": [
+   "Viele gute Einfälle kommen unter der Dusche oder beim Spazierengehen."
+  ]
+ },
+ {
+  "von_satz": 102,
+  "bis_satz": 104,
+  "bildart": "Du im Bild",
+  "ankerwort": "Lücke",
+  "beschreibung": "Du im Bild, Zoom auf „Lücke“.",
+  "szene": "",
+  "dauer_geschaetzt": 12.4,
+  "saetze": [
+   "Das ist kein Zufall.",
+   "Es sind die Momente, in denen du nichts konsumierst.",
+   "Wenn du jede Lücke mit dem Handy füllst, nimmst du deinem Kopf diese Pausen weg."
+  ]
+ },
+ {
+  "von_satz": 105,
+  "bis_satz": 107,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "zäh",
+  "beschreibung": "Linie einer Arbeitsphase sackt in ein Tal „zäh“. Dort springt ein Handysymbol hinein und die Linie bricht rot ab.",
+  "szene": "zaeh_kurve",
+  "dauer_geschaetzt": 13.8,
+  "saetze": [
+   "Dazu kommt ein zweiter Effekt.",
+   "Jede tiefe Arbeit hat Phasen, in denen es zäh wird.",
+   "Wer gelernt hat, bei jeder Langeweile zum Handy zu greifen, bricht genau an diesen Stellen ab."
+  ]
+ },
+ {
+  "von_satz": 108,
+  "bis_satz": 108,
+  "bildart": "Text",
+  "ankerwort": "Fokus",
+  "beschreibung": "Zitat im Stil der Testszene 01: „Fokus ist die Fähigkeit, bei einer Sache zu bleiben, obwohl sie gerade keinen Spaß macht.“",
+  "szene": "t_zitat_fokus",
+  "dauer_geschaetzt": 8.4,
+  "saetze": [
+   "Fokus ist zu einem großen Teil die Fähigkeit, bei einer Sache zu bleiben, obwohl sie gerade keinen Spaß macht."
+  ]
+ },
+ {
+  "von_satz": 109,
+  "bis_satz": 109,
+  "bildart": "Du im Bild",
+  "ankerwort": "ausweichst",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 5.8,
+  "saetze": [
+   "Diese Fähigkeit trainierst du jedes Mal ab, wenn du einer langweiligen Minute ausweichst."
+  ]
+ },
+ {
+  "von_satz": 110,
+  "bis_satz": 113,
+  "bildart": "B-Roll",
+  "ankerwort": "Sachbuch",
+  "beschreibung": "Sachbuch lesen, nach ein paar Seiten Griff zum Handy, das Buch liegt danach auf dem Nachttisch.",
+  "szene": "",
+  "dauer_geschaetzt": 16.4,
+  "saetze": [
+   "Stell dir vor, du liest ein Sachbuch.",
+   "Nach drei Seiten kommt ein Kapitel, das dich weniger interessiert.",
+   "Früher hättest du einfach weitergelesen.",
+   "Heute greifst du zum Handy, und das Buch liegt danach eine Woche auf dem Nachttisch."
+  ]
+ },
+ {
+  "von_satz": 114,
+  "bis_satz": 115,
+  "bildart": "Du im Bild",
+  "ankerwort": "Ausweg",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 11.1,
+  "saetze": [
+   "Das passiert nicht, weil das Buch schlecht ist.",
+   "Es passiert, weil dein Gehirn gelernt hat, dass es für jede zähe Minute einen schnellen Ausweg gibt."
+  ]
+ },
+ {
+  "von_satz": 116,
+  "bis_satz": 117,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "Muskel",
+  "beschreibung": "Neben dir wächst ein Balken „Langeweile aushalten“ in fünf Stufen.",
+  "szene": "balken_muskel",
+  "dauer_geschaetzt": 10.7,
+  "saetze": [
+   "Die gute Nachricht ist, dass du diese Fähigkeit genauso wieder aufbauen kannst.",
+   "Langeweile auszuhalten funktioniert wie ein Muskel, der mit jeder Wiederholung stärker wird."
+  ]
+ },
+ {
+  "von_satz": 118,
+  "bis_satz": 118,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "wegwerfen",
+  "beschreibung": "Übersicht, Kreis 05 „Lösung“ wird aktiv, Zähler 05/05.",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 2.7,
+  "saetze": [
+   "Du musst dein Handy nicht wegwerfen."
+  ]
+ },
+ {
+  "von_satz": 119,
+  "bis_satz": 119,
+  "bildart": "Du im Bild",
+  "ankerwort": "konzentrieren",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 5.3,
+  "saetze": [
+   "Du musst nur aufhören, es überall dabeizuhaben, wo du dich konzentrieren willst."
+  ]
+ },
+ {
+  "von_satz": 120,
+  "bis_satz": 121,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Erstens",
+  "beschreibung": "Liste der fünf Schritte, alle unscharf. Auf „Erstens“ wird 01 „Anderer Raum“ scharf, Zähler 01/05.",
+  "szene": "schritte",
+  "dauer_geschaetzt": 8.9,
+  "saetze": [
+   "Hier sind fünf Schritte, die du heute noch umsetzen kannst.",
+   "Erstens: Leg dein Handy beim Arbeiten in einen anderen Raum."
+  ]
+ },
+ {
+  "von_satz": 122,
+  "bis_satz": 122,
+  "bildart": "B-Roll",
+  "ankerwort": "Tasche",
+  "beschreibung": "Handy wird in einen anderen Raum gelegt, die Tür geht zu.",
+  "szene": "",
+  "dauer_geschaetzt": 4.4,
+  "saetze": [
+   "Nicht umgedreht auf den Tisch und nicht in die Tasche."
+  ]
+ },
+ {
+  "von_satz": 123,
+  "bis_satz": 124,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "Studie",
+  "beschreibung": "Neben dir die drei Gruppen aus Grund 1 in klein, Nebenraum leuchtet grün.",
+  "szene": "drei_gruppen_mini",
+  "dauer_geschaetzt": 6.2,
+  "saetze": [
+   "Du erinnerst dich an die Studie vom Anfang.",
+   "Genau das hat den Unterschied gemacht."
+  ]
+ },
+ {
+  "von_satz": 125,
+  "bis_satz": 125,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Zweitens",
+  "beschreibung": "Schritte, 02 „Benachrichtigungen“ wird scharf.",
+  "szene": "schritte",
+  "dauer_geschaetzt": 4.9,
+  "saetze": [
+   "Zweitens: Schalte alle Benachrichtigungen aus, die nicht von echten Menschen kommen."
+  ]
+ },
+ {
+  "von_satz": 126,
+  "bis_satz": 128,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "Einstellungen",
+  "beschreibung": "Handy-Bildschirmaufnahme: Einstellungen, Mitteilungen für einzelne Apps ausschalten.",
+  "szene": "",
+  "dauer_geschaetzt": 11.1,
+  "saetze": [
+   "Apps, Newsletter und Spiele dürfen dich nicht mehr unterbrechen.",
+   "Nachrichten von Familie und engen Freunden dürfen bleiben.",
+   "Geh dafür heute Abend einmal durch deine Einstellungen."
+  ]
+ },
+ {
+  "von_satz": 129,
+  "bis_satz": 129,
+  "bildart": "Du im Bild",
+  "ankerwort": "zehn",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 4.9,
+  "saetze": [
+   "Das dauert zehn Minuten und spart dir jeden Tag dutzende Unterbrechungen."
+  ]
+ },
+ {
+  "von_satz": 130,
+  "bis_satz": 130,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Drittens",
+  "beschreibung": "Schritte, 03 „Graustufen“ wird scharf.",
+  "szene": "schritte",
+  "dauer_geschaetzt": 2.7,
+  "saetze": [
+   "Drittens: Stell dein Display auf Graustufen."
+  ]
+ },
+ {
+  "von_satz": 131,
+  "bis_satz": 132,
+  "bildart": "Bildschirmaufnahme",
+  "ankerwort": "Grau",
+  "beschreibung": "Handy-Bildschirmaufnahme: farbiger Startbildschirm wechselt auf „Grau“ in Graustufen.",
+  "szene": "",
+  "dauer_geschaetzt": 7.1,
+  "saetze": [
+   "Bunte Symbole sind darauf ausgelegt, deinen Blick zu ziehen.",
+   "In Grau wirkt dasselbe Handy plötzlich langweilig."
+  ]
+ },
+ {
+  "von_satz": 133,
+  "bis_satz": 133,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Viertens",
+  "beschreibung": "Schritte, 04 „Handyzeiten“ wird scharf.",
+  "szene": "schritte",
+  "dauer_geschaetzt": 2.2,
+  "saetze": [
+   "Viertens: Plane feste Handyzeiten ein."
+  ]
+ },
+ {
+  "von_satz": 134,
+  "bis_satz": 136,
+  "bildart": "Du mit Grafik",
+  "ankerwort": "dreimal",
+  "beschreibung": "Neben dir eine Tagesleiste von 7 bis 22 Uhr. Auf „dreimal“ erscheinen drei kleine Blöcke in Akzentfarbe.",
+  "szene": "handyzeiten",
+  "dauer_geschaetzt": 8.9,
+  "saetze": [
+   "Zum Beispiel dreimal am Tag für fünfzehn Minuten.",
+   "In diesen Zeiten darfst du alles checken.",
+   "Dazwischen bleibt das Handy weg."
+  ]
+ },
+ {
+  "von_satz": 137,
+  "bis_satz": 139,
+  "bildart": "Du im Bild",
+  "ankerwort": "nichts",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 15.6,
+  "saetze": [
+   "Der Trick dabei ist, dass du nichts verpasst.",
+   "Du verschiebst das Checken nur auf einen Zeitpunkt, den du selbst bestimmst.",
+   "Sag den wichtigsten Menschen in deinem Leben Bescheid, dass sie dich im Notfall anrufen können."
+  ]
+ },
+ {
+  "von_satz": 140,
+  "bis_satz": 140,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "Fünftens",
+  "beschreibung": "Schritte, 05 „Langeweile üben“ wird scharf.",
+  "szene": "schritte",
+  "dauer_geschaetzt": 1.3,
+  "saetze": [
+   "Fünftens: Übe Langeweile."
+  ]
+ },
+ {
+  "von_satz": 141,
+  "bis_satz": 142,
+  "bildart": "B-Roll",
+  "ankerwort": "Kasse",
+  "beschreibung": "Warten an der Kasse ohne Handy, danach Spaziergang ohne Kopfhörer.",
+  "szene": "",
+  "dauer_geschaetzt": 6.7,
+  "saetze": [
+   "Warte an der Kasse, ohne aufs Handy zu schauen.",
+   "Geh zehn Minuten spazieren, ohne Kopfhörer."
+  ]
+ },
+ {
+  "von_satz": 143,
+  "bis_satz": 144,
+  "bildart": "Du im Bild",
+  "ankerwort": "ruhiger",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 10.7,
+  "saetze": [
+   "Am Anfang fühlt sich das komisch an.",
+   "Mit der Zeit wird dein Kopf ruhiger, und es fällt dir leichter, bei einer Sache zu bleiben."
+  ]
+ },
+ {
+  "von_satz": 145,
+  "bis_satz": 147,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "ersten",
+  "beschreibung": "Alle fünf Schritte sichtbar, nur 01 bleibt scharf, der Rest unscharf.",
+  "szene": "schritte",
+  "dauer_geschaetzt": 11.1,
+  "saetze": [
+   "Fang nicht mit allen fünf Schritten gleichzeitig an.",
+   "Nimm den ersten und zieh ihn eine Woche lang durch.",
+   "Das bringt dir mehr als jede Fokus-App."
+  ]
+ },
+ {
+  "von_satz": 148,
+  "bis_satz": 149,
+  "bildart": "Du im Bild",
+  "ankerwort": "Monat",
+  "beschreibung": "Du im Bild.",
+  "szene": "",
+  "dauer_geschaetzt": 12.4,
+  "saetze": [
+   "Wenn das sitzt, kommt der nächste Schritt dazu.",
+   "So baust du dir in gut einem Monat eine Umgebung, in der Fokus wieder normal ist und nicht die Ausnahme."
+  ]
+ },
+ {
+  "von_satz": 150,
+  "bis_satz": 151,
+  "bildart": "Text",
+  "ankerwort": "kaputt",
+  "beschreibung": "Text: „Dein Fokus ist nicht kaputt.“ in Serif, „nicht kaputt“ kursiv.",
+  "szene": "t_kaputt",
+  "dauer_geschaetzt": 5.3,
+  "saetze": [
+   "Dein Fokus ist nicht kaputt.",
+   "Er ist gerade auf etwas anderes trainiert."
+  ]
+ },
+ {
+  "von_satz": 152,
+  "bis_satz": 155,
+  "bildart": "Vollbild-Grafik",
+  "ankerwort": "still",
+  "beschreibung": "Übersicht der vier Gründe, mit jedem Satz wird der nächste Kreis aktiv (01 bis 04).",
+  "szene": "uebersicht",
+  "dauer_geschaetzt": 21.3,
+  "saetze": [
+   "Das Handy stört dich, auch wenn es still ist.",
+   "Jede Unterbrechung kostet dich mehr Zeit, als sie dauert.",
+   "Und je öfter du schnellen Reizen nachgibst, desto schwerer fällt dir alles, was Geduld braucht.",
+   "Und wer jeder Langeweile ausweicht, verliert genau die Fähigkeit, auf die es beim Fokus ankommt."
+  ]
+ },
+ {
+  "von_satz": 156,
+  "bis_satz": 157,
+  "bildart": "Du im Bild",
+  "ankerwort": "Umgebung",
+  "beschreibung": "Du im Bild, Zoom auf „Umgebung“.",
+  "szene": "",
+  "dauer_geschaetzt": 8.0,
+  "saetze": [
+   "Was antrainiert ist, kannst du auch wieder umtrainieren.",
+   "Du brauchst dafür keine perfekte Disziplin, nur eine bessere Umgebung."
+  ]
+ },
+ {
+  "von_satz": 158,
+  "bis_satz": 158,
+  "bildart": "B-Roll",
+  "ankerwort": "Raum",
+  "beschreibung": "Handy in den anderen Raum, Tür zu (Bild aus Schritt 1 wiederverwenden).",
+  "szene": "",
+  "dauer_geschaetzt": 7.1,
+  "saetze": [
+   "Leg dein Handy bei deiner nächsten wichtigen Aufgabe in einen anderen Raum und schau, was passiert."
+  ]
+ },
+ {
+  "von_satz": 159,
+  "bis_satz": 160,
+  "bildart": "Du im Bild",
+  "ankerwort": "Kommentare",
+  "beschreibung": "Du im Bild, direkte Ansprache.",
+  "szene": "",
+  "dauer_geschaetzt": 14.7,
+  "saetze": [
+   "Schreib mir in die Kommentare, wie oft du dein Handy gestern in der Hand hattest, ehrlich geschätzt.",
+   "Und wenn dir das Video geholfen hat, abonnier den Kanal, damit du das nächste nicht verpasst."
+  ]
+ }
+]
